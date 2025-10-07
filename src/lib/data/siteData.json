@@ -1,0 +1,358 @@
+{
+  "seo": {
+    "title": "Nature Travels - Best Travel Site for Southern India & Vizag Travel Packages",
+    "description": "Discover the best travel experiences with Nature Travels. Explore Southern India, Vizag travel packages, adventure tours, cultural experiences, and seasonal destinations. Your trusted travel partner for unforgettable journeys.",
+    "keywords": "best travel site, vizag travel, southern india travel, nature travels, adventure tours, cultural experiences, travel packages, seasonal destinations, araku valley, borra caves, rk beach, kailasagiri, best travel agency, affordable travel packages",
+    "ogImage": "/og-image.jpg"
+  },
+  "company": {
+    "name": "Nature Travels",
+    "phone": "+91 7702991358",
+    "email": "info@naturetravels.com",
+    "address": "123 Travel Street, Hyderabad, Telangana",
+    "hours": "Mon - Sun: 9:00 AM - 8:00 PM",
+    "whatsapp": "https://wa.me/917702991358"
+  },
+  "navigation": [
+    { "name": "Home", "href": "#home" },
+    { "name": "Destinations", "href": "#destinations" },
+    { "name": "Services", "href": "#services" },
+    { "name": "Vizag", "href": "#vizag" },
+    { "name": "Seasonal", "href": "#seasonal" },
+    { "name": "Contact", "href": "#contact" }
+  ],
+  "hero": {
+    "title": "Discover the Beauty of Southern India - Best Travel Experiences",
+    "subtitle": "Explore the stunning landscapes, rich culture, and unforgettable experiences in Andhra Pradesh and Telangana with Nature Travels - Your trusted travel partner",
+    "searchPlaceholder": "Search for destinations, activities...",
+    "backgroundImage": "https://images.pexels.com/photos/427679/pexels-photo-427679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  "destinations": {
+    "title": "Explore Vizag - Best Travel Destinations",
+    "subtitle": "These popular destinations have a lot to offer for every traveler",
+    "items": [
+      {
+        "name": "Rishikesh",
+        "properties": "1,006 properties",
+        "image": "https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "Rishikesh travel destination - Adventure and spirituality"
+      },
+      {
+        "name": "Mussoorie",
+        "properties": "621 properties",
+        "image": "https://images.pexels.com/photos/3581366/pexels-photo-3581366.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "Mussoorie hill station - Queen of Hills"
+      },
+      {
+        "name": "Haridwār",
+        "properties": "476 properties",
+        "image": "https://images.pexels.com/photos/3581366/pexels-photo-3581366.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "Haridwar spiritual destination - Gateway to Gods"
+      },
+      {
+        "name": "Dehradun",
+        "properties": "852 properties",
+        "image": "https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "Dehradun travel - Capital of Uttarakhand"
+      },
+      {
+        "name": "Jim Corbett National Park",
+        "properties": "200 properties",
+        "image": "https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "Jim Corbett National Park - Wildlife safari experience"
+      },
+      {
+        "name": "Nainital",
+        "properties": "404 properties",
+        "image": "https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "Nainital lake district - Beautiful hill station"
+      }
+    ]
+  },
+  "animationSection": {
+    "title": "Experience Travel Like Never Before - Best Travel Site in India",
+    "content": "Embark on unforgettable journeys through the stunning landscapes of Southern India. From pristine beaches to lush hill stations, we create personalized travel experiences that connect you with nature and local culture. Our expert guides and carefully curated itineraries ensure you discover hidden gems and create memories that last a lifetime.",
+    "image": "https://images.pexels.com/photos/2422259/pexels-photo-2422259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "alt": "Travel experience with Nature Travels - Best travel agency",
+    "ctaText": "Start Your Adventure"
+  },
+  "seasonal": {
+    "title": "Seasonal Destinations - Best Time to Travel",
+    "subtitle": "Discover the best places to visit based on the season with our expert travel guidance",
+    "seasons": [
+      {
+        "name": "summer",
+        "label": "Summer Escapes",
+        "active": true,
+        "destinations": [
+          {
+            "name": "Ooty",
+            "description": "Perfect hill station to escape the summer heat",
+            "image": "https://images.pexels.com/photos/2582818/pexels-photo-2582818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Ooty summer travel - Queen of Hill Stations"
+          },
+          {
+            "name": "Kodaikanal",
+            "description": "Enjoy the cool climate and beautiful lakes",
+            "image": "https://images.pexels.com/photos/4275885/pexels-photo-4275885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Kodaikanal travel - Princess of Hill Stations"
+          },
+          {
+            "name": "Munnar",
+            "description": "Tea gardens and misty mountains await",
+            "image": "https://images.pexels.com/photos/427679/pexels-photo-427679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Munnar tea gardens - Kerala tourism"
+          },
+          {
+            "name": "Ladakh",
+            "description": "Adventure in the land of high passes",
+            "image": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Ladakh adventure travel - Himalayan destination"
+          }
+        ]
+      },
+      {
+        "name": "monsoon",
+        "label": "Monsoon Magic",
+        "active": false,
+        "destinations": [
+          {
+            "name": "Munnar",
+            "description": "Lush green tea plantations in the rain",
+            "image": "https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Munnar monsoon - Green tea plantations"
+          },
+          {
+            "name": "Coorg",
+            "description": "Scotland of India in its monsoon glory",
+            "image": "https://images.pexels.com/photos/1450082/pexels-photo-1450082.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Coorg monsoon - Scotland of India"
+          }
+        ]
+      },
+      {
+        "name": "winter",
+        "label": "Winter Wonderlands",
+        "active": false,
+        "destinations": [
+          {
+            "name": "Gulmarg",
+            "description": "India's premier skiing destination",
+            "image": "https://images.pexels.com/photos/672358/pexels-photo-672358.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Gulmarg skiing - Winter sports destination"
+          },
+          {
+            "name": "Manali",
+            "description": "Snow-capped mountains and adventure sports",
+            "image": "https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Manali winter - Snow destination"
+          }
+        ]
+      },
+      {
+        "name": "spring",
+        "label": "Spring Blossoms",
+        "active": false,
+        "destinations": [
+          {
+            "name": "Valley of Flowers",
+            "description": "Alpine meadows bursting with color",
+            "image": "https://images.pexels.com/photos/931018/pexels-photo-931018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Valley of Flowers spring - Alpine flowers"
+          },
+          {
+            "name": "Kashmir",
+            "description": "Tulip gardens and blossoming orchards",
+            "image": "https://images.pexels.com/photos/1450082/pexels-photo-1450082.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "alt": "Kashmir spring - Tulip gardens"
+          }
+        ]
+      }
+    ]
+  },
+  "services": {
+    "title": "Our Travel Services - Best Travel Packages",
+    "subtitle": "We offer a wide range of travel services to make your journey unforgettable",
+    "items": [
+      {
+        "name": "Customized Tours",
+        "description": "Tailor-made itineraries designed specifically for your preferences and interests.",
+        "image": "https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "Customized travel tours - Personalized itineraries",
+        "link": "#"
+      },
+      {
+        "name": "Adventure Travel",
+        "description": "Thrilling experiences from trekking to water sports in the most scenic locations.",
+        "image": "https://images.pexels.com/photos/21014/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "Adventure travel packages - Trekking and sports",
+        "link": "#"
+      },
+      {
+        "name": "Cultural Experiences",
+        "description": "Immerse yourself in local traditions, festivals, and authentic cuisine.",
+        "image": "https://images.pexels.com/photos/3155666/pexels-photo-3155666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "Cultural travel experiences - Local traditions",
+        "link": "#"
+      },
+      {
+        "name": "Luxury Getaways",
+        "description": "Premium accommodations and exclusive experiences for the discerning traveler.",
+        "image": "https://images.pexels.com/photos/1450363/pexels-photo-1450363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "Luxury travel packages - Premium accommodations",
+        "link": "#"
+      }
+    ]
+  },
+  "vizag": {
+    "title": "Vizag Travels - Best Visakhapatnam Tour Packages",
+    "subtitle": "Explore the beautiful city of Visakhapatnam and its surroundings with our exclusive Vizag travel packages",
+    "destinations": [
+      {
+        "name": "Araku Valley",
+        "image": "https://images.pexels.com/photos/3225529/pexels-photo-3225529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "Araku Valley Vizag travel - Scenic hill station",
+        "link": "#"
+      },
+      {
+        "name": "Borra Caves",
+        "image": "https://images.pexels.com/photos/3581366/pexels-photo-3581366.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "Borra Caves Vizag - Natural limestone caves",
+        "link": "#"
+      },
+      {
+        "name": "RK Beach",
+        "image": "https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "RK Beach Visakhapatnam - Popular beach destination",
+        "link": "#"
+      },
+      {
+        "name": "Kailasagiri",
+        "image": "https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt": "Kailasagiri Vizag - Hilltop park with panoramic views",
+        "link": "#"
+      }
+    ]
+  },
+  "highlights": {
+    "title": "Why Choose Nature Travels - Best Travel Agency",
+    "items": [
+      {
+        "icon": "map-marked-alt",
+        "title": "Expert Guides",
+        "description": "Our knowledgeable local guides ensure you discover hidden gems and authentic experiences."
+      },
+      {
+        "icon": "shield-alt",
+        "title": "Safe & Secure",
+        "description": "Your safety is our priority with well-planned itineraries and 24/7 support."
+      },
+      {
+        "icon": "hand-holding-usd",
+        "title": "Best Value",
+        "description": "We offer competitive pricing without compromising on quality and experiences."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What Our Travelers Say - Customer Reviews",
+    "subtitle": "Hear from our satisfied customers about their experiences with Nature Travels",
+    "items": [
+      {
+        "name": "Daniel Clifford",
+        "role": "Verified Traveler",
+        "image": "https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-daniel.jpg",
+        "title": "An unforgettable journey through Southern India!",
+        "content": "Our trip to Araku Valley was absolutely magical. The scenery was breathtaking, and our guide made the experience even more special with his knowledge of the local culture and history. The accommodations were comfortable and the itinerary was perfectly paced. We'll definitely be booking with Nature Travels again!",
+        "theme": "light"
+      },
+      {
+        "name": "Jonathan Walters",
+        "role": "Verified Traveler",
+        "image": "https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jonathan.jpg",
+        "title": "Perfect family vacation experience!",
+        "content": "We were a bit nervous about traveling with our young children, but Nature Travels made everything so easy.",
+        "theme": "light"
+      },
+      {
+        "name": "Kira Whittle",
+        "role": "Verified Traveler",
+        "image": "https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-kira.jpg",
+        "title": "Such a life-changing experience. Highly recommended!",
+        "content": "Before booking with Nature Travels, I'd never visited Southern India. I needed guidance from professionals who could help me plan the perfect trip. The entire experience did not disappoint. They were very hands-on and I never had to wait long for assistance.",
+        "theme": "dark"
+      },
+      {
+        "name": "Jeanette Harmon",
+        "role": "Verified Traveler",
+        "image": "https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jeanette.jpg",
+        "title": "An overall wonderful and rewarding experience",
+        "content": "Thank you for the wonderful experience! The attention to detail was impressive.",
+        "theme": "dark"
+      },
+      {
+        "name": "Patrick Abrams",
+        "role": "Verified Traveler",
+        "image": "https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-patrick.jpg",
+        "title": "Awesome support from guides who knew the region intimately",
+        "content": "The Nature Travels team seems genuinely concerned about creating the perfect experience for their clients. The program gave me the confidence to explore regions I wouldn't have ventured into on my own. The hiking trails they recommended were spectacular!",
+        "theme": "light"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions - Travel Information",
+    "subtitle": "Find answers to common questions about our travel services",
+    "items": [
+      {
+        "question": "What is the best time to visit Southern India?",
+        "answer": "The best time to visit Southern India is from October to March when the weather is pleasant and ideal for sightseeing and outdoor activities. The monsoon season (June to September) offers lush green landscapes but may limit some activities."
+      },
+      {
+        "question": "Do you offer customized tour packages?",
+        "answer": "Yes, we specialize in creating customized tour packages tailored to your preferences, interests, and budget. Our travel experts will work with you to design the perfect itinerary."
+      },
+      {
+        "question": "What safety measures do you have in place?",
+        "answer": "We prioritize your safety with vetted accommodations, experienced guides, 24/7 customer support, and comprehensive travel insurance options. All our partners adhere to strict safety standards."
+      },
+      {
+        "question": "How far in advance should I book my trip?",
+        "answer": "We recommend booking at least 2-3 months in advance for domestic travel and 3-6 months for international trips to ensure availability and the best prices, especially during peak seasons."
+      }
+    ]
+  },
+  "newsletter": {
+    "title": "Stay Updated with Travel Deals",
+    "subtitle": "Subscribe to our newsletter for travel tips, exclusive offers, and destination highlights",
+    "placeholder": "Your email address"
+  },
+  "contact": {
+    "title": "Contact Us - Plan Your Adventure",
+    "subtitle": "Get in touch with us to plan your next adventure",
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15220.41432145695!2d78.48673436977538!3d17.504999999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99dac93e348d%3A0xc9039baf28225326!2sHitech%20City%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1690816787891!5m2!1sen!2sin"
+  },
+  "footer": {
+    "description": "Your trusted partner for unforgettable travel experiences in Southern India and beyond.",
+    "quickLinks": [
+      { "name": "Home", "link": "#home" },
+      { "name": "Destinations", "link": "#destinations" },
+      { "name": "Services", "link": "#services" },
+      { "name": "Vizag Travels", "link": "#vizag" },
+      { "name": "Contact", "link": "#contact" }
+    ],
+    "popularDestinations": [
+      { "name": "Araku Valley", "link": "#" },
+      { "name": "Borra Caves", "link": "#" },
+      { "name": "RK Beach", "link": "#" },
+      { "name": "Kailasagiri", "link": "#" },
+      { "name": "Lambasingi", "link": "#" }
+    ],
+    "socialLinks": [
+      { "icon": "facebook-f", "link": "#", "label": "Facebook" },
+      { "icon": "twitter", "link": "#", "label": "Twitter" },
+      { "icon": "instagram", "link": "#", "label": "Instagram" },
+      { "icon": "youtube", "link": "#", "label": "YouTube" }
+    ]
+  }
+}
