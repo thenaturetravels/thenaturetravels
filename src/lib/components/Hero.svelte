@@ -337,7 +337,7 @@
   
   @media (max-width: 576px) {
     .hero {
-      height: 60vh;
+      height: 100vh;
     }
     
     .hero-title {
@@ -390,4 +390,5 @@
     white-space: nowrap;
     border: 0;
   }
+
 </style>
