@@ -3,14 +3,14 @@
     "title": "Nature Travels - Best Travel Site for Southern India & Vizag Travel Packages",
     "description": "Discover the best travel experiences with Nature Travels. Explore Southern India, Vizag travel packages, adventure tours, cultural experiences, and seasonal destinations. Your trusted travel partner for unforgettable journeys.",
     "keywords": "best travel site, vizag travel, southern india travel, nature travels, adventure tours, cultural experiences, travel packages, seasonal destinations, araku valley, borra caves, rk beach, kailasagiri, best travel agency, affordable travel packages",
-    "ogImage": "/og-image.jpg"
+    "ogImage": "The-nature-travels-logo.png"
   },
   "company": {
     "name": "Nature Travels",
-    "phone": "+91 7702991358",
+    "phone": "+91 9030905443",
     "email": "info@naturetravels.com",
-    "address": "123 Travel Street, Hyderabad, Telangana",
-    "hours": "Mon - Sun: 9:00 AM - 8:00 PM",
+    "address": "Vizag, Visakhapatnam, Andhra Pradesh",
+    "hours": "Mon - Sun: 8:00 AM - 8:00 PM",
     "whatsapp": "https://wa.me/917702991358"
   },
   "navigation": [
@@ -21,58 +21,66 @@
     { "name": "Seasonal", "href": "#seasonal" },
     { "name": "Contact", "href": "#contact" }
   ],
-  "hero": {
+   "hero": {
     "title": "Discover the Beauty of Southern India - Best Travel Experiences",
     "subtitle": "Explore the stunning landscapes, rich culture, and unforgettable experiences in Andhra Pradesh and Telangana with Nature Travels - Your trusted travel partner",
     "searchPlaceholder": "Search for destinations, activities...",
-    "backgroundImage": "https://images.pexels.com/photos/427679/pexels-photo-427679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    "backgroundImages": [
+      
+      "rkbeach2.jpg",
+      "tirupathi.jpg",
+      "simhachalam.jpg",
+      "araku.jpg",
+      "vanjangi.jpg"
+    ],
+    "carouselInterval": 5000
   },
   "destinations": {
-    "title": "Explore Vizag - Best Travel Destinations",
+    "title": "Best Travel Destinations",
     "subtitle": "These popular destinations have a lot to offer for every traveler",
     "items": [
       {
-        "name": "Rishikesh",
+        "name": "Tirupathi",
         "properties": "1,006 properties",
-        "image": "https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "alt": "Rishikesh travel destination - Adventure and spirituality"
+        "image": "tirupathi.jpg",
+        "alt": "tirupathi"
       },
       {
-        "name": "Mussoorie",
+        "name": "Simhachalam",
         "properties": "621 properties",
-        "image": "https://images.pexels.com/photos/3581366/pexels-photo-3581366.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "alt": "Mussoorie hill station - Queen of Hills"
+        "image": "simhachalam.jpg",
+        "alt": "simhachalam"
       },
       {
-        "name": "Haridwār",
+        "name": "Kailasagiri",
         "properties": "476 properties",
-        "image": "https://images.pexels.com/photos/3581366/pexels-photo-3581366.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "alt": "Haridwar spiritual destination - Gateway to Gods"
+        "image": "kailasagiri.jpg",
+        "alt": "kailasagiri"
       },
       {
-        "name": "Dehradun",
+        "name": "RK Beach",
         "properties": "852 properties",
-        "image": "https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "alt": "Dehradun travel - Capital of Uttarakhand"
+        "image": "rkbeach.jpg",
+        "alt": "rkbeach"
       },
       {
-        "name": "Jim Corbett National Park",
+        "name": "Araku",
         "properties": "200 properties",
-        "image": "https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "alt": "Jim Corbett National Park - Wildlife safari experience"
+        "image": "araku.jpg",
+        "alt": "araku"
       },
       {
-        "name": "Nainital",
+        "name": "Vanjangi",
         "properties": "404 properties",
-        "image": "https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "alt": "Nainital lake district - Beautiful hill station"
+        "image": "vanjangi.jpg",
+        "alt": "vanajangi"
       }
     ]
   },
   "animationSection": {
     "title": "Experience Travel Like Never Before - Best Travel Site in India",
     "content": "Embark on unforgettable journeys through the stunning landscapes of Southern India. From pristine beaches to lush hill stations, we create personalized travel experiences that connect you with nature and local culture. Our expert guides and carefully curated itineraries ensure you discover hidden gems and create memories that last a lifetime.",
-    "image": "https://images.pexels.com/photos/2422259/pexels-photo-2422259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "image": "rkbeach2.jpg",
     "alt": "Travel experience with Nature Travels - Best travel agency",
     "ctaText": "Start Your Adventure"
   },
@@ -86,28 +94,28 @@
         "active": true,
         "destinations": [
           {
-            "name": "Ooty",
-            "description": "Perfect hill station to escape the summer heat",
-            "image": "https://images.pexels.com/photos/2582818/pexels-photo-2582818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "alt": "Ooty summer travel - Queen of Hill Stations"
+            "name": "RK Beach",
+            "description": "Perfect sea to escape the summer heat",
+            "image": "rkbeach.jpg",
+            "alt": "rkbeach"
           },
           {
-            "name": "Kodaikanal",
-            "description": "Enjoy the cool climate and beautiful lakes",
-            "image": "https://images.pexels.com/photos/4275885/pexels-photo-4275885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "alt": "Kodaikanal travel - Princess of Hill Stations"
+            "name": "Yarada",
+            "description": "Best view in beach",
+            "image": "yarada.jpg",
+            "alt": "yarada"
           },
           {
-            "name": "Munnar",
-            "description": "Tea gardens and misty mountains await",
-            "image": "https://images.pexels.com/photos/427679/pexels-photo-427679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "alt": "Munnar tea gardens - Kerala tourism"
+            "name": "Thotlakonda",
+            "description": "Beach with acient archology",
+            "image": "thotlakonda.jpg",
+            "alt": "thotlakonda"
           },
           {
-            "name": "Ladakh",
-            "description": "Adventure in the land of high passes",
-            "image": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "alt": "Ladakh adventure travel - Himalayan destination"
+            "name": "Devarapalli",
+            "description": "Adventure waterfall",
+            "image": "devarapalli.jpg",
+            "alt": "devarapalli"
           }
         ]
       },
@@ -177,28 +185,28 @@
       {
         "name": "Customized Tours",
         "description": "Tailor-made itineraries designed specifically for your preferences and interests.",
-        "image": "https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "image": "kailasagiri.jpg",
         "alt": "Customized travel tours - Personalized itineraries",
         "link": "#"
       },
       {
         "name": "Adventure Travel",
         "description": "Thrilling experiences from trekking to water sports in the most scenic locations.",
-        "image": "https://images.pexels.com/photos/21014/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "image": "burracaves.jpg",
         "alt": "Adventure travel packages - Trekking and sports",
         "link": "#"
       },
       {
         "name": "Cultural Experiences",
         "description": "Immerse yourself in local traditions, festivals, and authentic cuisine.",
-        "image": "https://images.pexels.com/photos/3155666/pexels-photo-3155666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "image": "tirupathi.jpg",
         "alt": "Cultural travel experiences - Local traditions",
         "link": "#"
       },
       {
-        "name": "Luxury Getaways",
+        "name": "Vanjangi",
         "description": "Premium accommodations and exclusive experiences for the discerning traveler.",
-        "image": "https://images.pexels.com/photos/1450363/pexels-photo-1450363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "image": "vanjangi.jpg",
         "alt": "Luxury travel packages - Premium accommodations",
         "link": "#"
       }
@@ -210,25 +218,25 @@
     "destinations": [
       {
         "name": "Araku Valley",
-        "image": "https://images.pexels.com/photos/3225529/pexels-photo-3225529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "image": "araku2.jpg",
         "alt": "Araku Valley Vizag travel - Scenic hill station",
         "link": "#"
       },
       {
         "name": "Borra Caves",
-        "image": "https://images.pexels.com/photos/3581366/pexels-photo-3581366.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "image": "burracaves.jpg",
         "alt": "Borra Caves Vizag - Natural limestone caves",
         "link": "#"
       },
       {
         "name": "RK Beach",
-        "image": "https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "image": "rkbeach.jpg",
         "alt": "RK Beach Visakhapatnam - Popular beach destination",
         "link": "#"
       },
       {
         "name": "Kailasagiri",
-        "image": "https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "image": "kailasagiri2.jpg",
         "alt": "Kailasagiri Vizag - Hilltop park with panoramic views",
         "link": "#"
       }

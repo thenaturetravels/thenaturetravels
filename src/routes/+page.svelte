@@ -51,7 +51,7 @@
 <Services />
 <Vizag />
 <Highlights />
-<Testimonials />
+<!-- <Testimonials /> -->
 <FAQ />
 <Newsletter />
 <Contact />
