@@ -13,6 +13,8 @@
   import Newsletter from '$lib/components/Newsletter.svelte';
   import Contact from '$lib/components/Contact.svelte';
   import Footer from '$lib/components/Footer.svelte';
+  import Partners from '$lib/components/Partners.svelte';
+  import DoubleScrolling from '$lib/components/DoubleScrolling.svelte';
   
   let currentTheme = 'light';
   
@@ -48,11 +50,23 @@
 <Destinations />
 <AnimationSection />
 <Seasonal />
+<Highlights />
 <Services />
 <Vizag />
-<Highlights />
-<!-- <Testimonials /> -->
-<FAQ />
+
+<Partners/>
+<DoubleScrolling/>
+<Testimonials />
+
 <Newsletter />
 <Contact />
+<FAQ />
 <Footer />
+
+<style>
+  *{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+</style>

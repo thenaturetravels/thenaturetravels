@@ -47,6 +47,7 @@
                     alt={`${testimonial.name} profile picture`}
                     width="40"
                     height="40"
+                    loading="lazy"
                   />
                 </div>
                 <div class="detbox-test">
@@ -83,6 +84,7 @@
                         alt={`${testimonial.name} profile picture`}
                         width="40"
                         height="40"
+                        loading="lazy"
                       />
                     </div>
                     <div class="detbox-test">
@@ -169,26 +171,28 @@
     background-image: url(https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     background-position-x: 80%;
+
   }
   
   .div2-test {
     background: #49556B;
     grid-column: 3/4;
     grid-row: 1/2;
+
   }
   
   .div3-test {
     background: white;
     grid-column: 4/5;
     grid-row: 1/3;
-    color: var(--text);
+    color:#000;
   }
   
   .div4-test {
     background: white;
     grid-column: 1/2;
     grid-row: 2/3;
-    color: var(--text);
+      color:#000;
   }
   
   .div5-test {
@@ -262,7 +266,6 @@
   }
   
   .review-test.dark-test p {
-    color: var(--text);
     opacity: 0.8;
   }
   
@@ -300,7 +303,6 @@
     padding: 25px;
     box-shadow: var(--shadow);
     height: 100%;
-    color: var(--text);
     width: 100%;
     box-sizing: border-box;
   }
@@ -323,7 +325,7 @@
   }
   
   .indicator-test.active-test {
-    background-color: var(--primary);
+    background: var(--primary);
   }
   
   /* Responsive */
@@ -354,31 +356,37 @@
     }
   }
 
-       .review-test h4, .review-test p {
+       /* .review-test h4, .review-test p {
       color:var(--light);
       
-    }
+    } */
   
+  /* Responsive Fixes */
   @media only screen and (max-width: 768px) {
-    .desktop-testimonials {
-      display: none;
+    .desktop-testimonials { display: none; }
+    .mobile-testimonials { display: block; }
+
+    .testimonial-card-test {
+      max-width: 90vw;
+      margin: 0 auto;
+      /* color:#000; */
     }
-    
-    .mobile-testimonials {
-      display: block;
-    }
-        .review-test h4 {
-      
+    .review-test h4 {
       max-width: 400px;
+      color: #333;
     }
-    
     .review-test p {
-      padding-right: 30px;
       max-width: 400px;
+      color: #555;
     }
 
-      .testimonial-card-test {
-max-width:100vw;
+      .detbox-test .designation-test.dark-test {
+    color: #000;
   }
+   .detbox-test .name-test,.detbox-test .designation-test {
+    color:#000;
+
+  }
+
   }
 </style>

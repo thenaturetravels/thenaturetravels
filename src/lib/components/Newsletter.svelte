@@ -41,7 +41,7 @@
 
 <style>
   .newsletter-section {
-    background-color: var(--primary);
+    background: var(--primary);
     padding: 60px 0;
     text-align: center;
   }

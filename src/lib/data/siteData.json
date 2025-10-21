@@ -27,8 +27,7 @@
     "searchPlaceholder": "Search for destinations, activities...",
     "backgroundImages": [
       
-      "rkbeach2.jpg",
-      "tirupathi.jpg",
+      "rkbeach.jpg",
       "simhachalam.jpg",
       "araku.jpg",
       "vanjangi.jpg"
@@ -39,12 +38,7 @@
     "title": "Best Travel Destinations",
     "subtitle": "These popular destinations have a lot to offer for every traveler",
     "items": [
-      {
-        "name": "Tirupathi",
-        "properties": "1,006 properties",
-        "image": "tirupathi.jpg",
-        "alt": "tirupathi"
-      },
+      
       {
         "name": "Simhachalam",
         "properties": "621 properties",
@@ -66,7 +60,7 @@
       {
         "name": "Araku",
         "properties": "200 properties",
-        "image": "araku.jpg",
+        "image": "araku-people.jpeg",
         "alt": "araku"
       },
       {
@@ -74,6 +68,11 @@
         "properties": "404 properties",
         "image": "vanjangi.jpg",
         "alt": "vanajangi"
+      },{
+        "name": "Tirupathi",
+        "properties": "1,006 properties",
+        "image": "tirupathi.jpg",
+        "alt": "tirupathi"
       }
     ]
   },
@@ -259,6 +258,25 @@
         "icon": "hand-holding-usd",
         "title": "Best Value",
         "description": "We offer competitive pricing without compromising on quality and experiences."
+      }
+    ]
+  },
+  "partners": {
+    "title": "Our Trusted Partners",
+    "subtitle": "Collaborating with industry leaders to deliver exceptional service",
+    "companies": [
+      
+      {
+        "name": "Google",
+        "logo": "https://logos-world.net/wp-content/uploads/2020/09/Google-Logo.png"
+      },
+      {
+        "name": "Apple",
+        "logo": "https://logos-world.net/wp-content/uploads/2020/04/Apple-Logo.png"
+      },
+      {
+        "name": "Amazon",
+        "logo": "https://logos-world.net/wp-content/uploads/2020/04/Amazon-Logo.png"
       }
     ]
   },

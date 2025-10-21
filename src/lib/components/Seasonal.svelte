@@ -120,7 +120,7 @@
   }
   
   .season-btn.active {
-    background-color: var(--primary);
+    background: var(--primary);
     color: white;
   }
   
@@ -149,7 +149,7 @@
     scroll-behavior: smooth;
     scrollbar-width: none;
     -ms-overflow-style: none;
-    padding: 20px 0;
+    padding: 20px 10px;
     gap: 15px;
   }
   
@@ -203,7 +203,7 @@
   }
   
   .carousel-btn {
-    background-color: var(--primary);
+    background: var(--primary);
     color: white;
     border: none;
     width: 40px;

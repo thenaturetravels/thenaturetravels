@@ -129,7 +129,7 @@ color:var(--light);
   
   .social-links a:hover,
   .social-links a:focus {
-    background-color: var(--primary);
+    background: var(--primary);
     transform: translateY(-2px);
   }
   

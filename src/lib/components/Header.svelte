@@ -34,20 +34,11 @@
         width="50" 
         height="50"
       />
+      <p>The Nature Travels</p>
     </div>
 
     <!-- Mobile Menu Button -->
-    <button 
-      class="mobile-menu-button"
-      on:click={toggleMobileMenu}
-      aria-expanded={mobileMenuOpen}
-      aria-controls="mobile-menu"
-      aria-label="Toggle mobile menu"
-    >
-      <span class="hamburger-line"></span>
-      <span class="hamburger-line"></span>
-      <span class="hamburger-line"></span>
-    </button>
+
     </div>
 
     <!-- Desktop Navigation -->
@@ -65,6 +56,7 @@
 
     <div class="header-buttons">
             <button 
+            
         class="theme-toggle" 
         on:click={() => theme.toggle()}
         aria-label={$theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode'}
@@ -85,6 +77,18 @@
       >
         <i class="fab fa-whatsapp" aria-hidden="true"></i>
       </a>
+
+          <button 
+      class="mobile-menu-button"
+      on:click={toggleMobileMenu}
+      aria-expanded={mobileMenuOpen}
+      aria-controls="mobile-menu"
+      aria-label="Toggle mobile menu"
+    >
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
     </div>
   </div>
 
@@ -126,8 +130,11 @@
 
 <style>
   header {
-    background-color: var(--primary);
-    padding: 15px 0;
+    background: var(--primary);
+    /* background: linear-gradient(135deg, #FF6B00, #FFD700, #00BFFF, #0074D9); */
+     /* background: linear-gradient(to right, #FF6B00, #FFD700, #00BFFF); */
+   /* background: linear-gradient(to bottom, #00BFFF, #0074D9, #0B132B); */
+     padding: 15px 0;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -147,6 +154,7 @@
   
   .logo {
     display: flex;
+    flex-direction: column;
     align-items: center;
   }
   
@@ -155,11 +163,11 @@
     margin-right: 10px;
   }
   
-  .logo h1 {
+  /* .logo h1 {
     font-size: 1.8rem;
     font-weight: 700;
     color: var(--dark);
-  }
+  } */
   
   /* Desktop Navigation */
   .desktop-nav ul {
@@ -213,6 +221,7 @@
     font-size: 1.8rem;
     color: #25D366;
     transition: var(--transition);
+    margin-right:20px;
   }
   
   .whatsapp-icon:hover,
@@ -259,7 +268,7 @@
     width: 80%;
     max-width: 300px;
     height: 100%;
-    background-color: var(--primary);
+    background: var(--primary);
     padding: 60px 20px 20px;
     transform: translateX(0);
     transition: transform 0.3s ease;

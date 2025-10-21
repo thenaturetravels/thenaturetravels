@@ -1,5 +1,22 @@
 <script>
+  import { onMount } from 'svelte';
   import siteData from '$lib/data/siteData.json';
+  
+  let carouselRef;
+  
+  onMount(() => {
+    // Initialize carousel functionality
+  });
+  
+  function scrollCarousel(direction) {
+    if (carouselRef) {
+      const scrollAmount = 300;
+      carouselRef.scrollBy({
+        left: direction * scrollAmount,
+        behavior: 'smooth'
+      });
+    }
+  }
 </script>
 
 <section id="vizag" class="vizag-section" aria-labelledby="vizag-title">
@@ -9,26 +26,45 @@
       <p>{siteData.vizag.subtitle}</p>
     </div>
     
-    <div class="vizag-grid">
-      {#each siteData.vizag.destinations as destination}
-        <article class="vizag-card animate" aria-label={destination.name}>
-          <div class="vizag-image">
-            <img 
-              src={destination.image} 
-              alt={destination.alt}
-              width="300"
-              height="200"
-              loading="lazy"
-            />
-          </div>
-          <div class="vizag-content">
-            <h3>{destination.name}</h3>
-            <a href={destination.link} class="vizag-btn" aria-label={`Explore ${destination.name}`}>
-              Explore
-            </a>
-          </div>
-        </article>
-      {/each}
+    <div class="carousel-container">
+      <div class="carousel" bind:this={carouselRef} aria-label="Vizag destinations carousel">
+        {#each siteData.vizag.destinations as destination}
+          <article class="carousel-item animate" aria-label={destination.name}>
+            <div class="vizag-image">
+              <img 
+                src={destination.image} 
+                alt={destination.alt}
+                width="300"
+                height="200"
+                loading="lazy"
+              />
+            </div>
+            <div class="vizag-content">
+              <h3>{destination.name}</h3>
+              <a href={destination.link} class="vizag-btn" aria-label={`Explore ${destination.name}`}>
+                Explore
+              </a>
+            </div>
+          </article>
+        {/each}
+      </div>
+      
+      <div class="carousel-nav" aria-label="Carousel navigation">
+        <button 
+          class="carousel-btn prev" 
+          on:click={() => scrollCarousel(-1)}
+          aria-label="Previous destinations"
+        >
+          <i class="fas fa-chevron-left" aria-hidden="true"></i>
+        </button>
+        <button 
+          class="carousel-btn next" 
+          on:click={() => scrollCarousel(1)}
+          aria-label="Next destinations"
+        >
+          <i class="fas fa-chevron-right" aria-hidden="true"></i>
+        </button>
+      </div>
     </div>
   </div>
 </section>
@@ -38,13 +74,29 @@
     padding: 80px 0;
   }
   
-  .vizag-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 30px;
+  .carousel-container {
+    position: relative;
+    overflow: hidden;
+    margin: 0 -15px;
   }
   
-  .vizag-card {
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding: 20px 0;
+    gap: 15px;
+  }
+  
+  .carousel::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .carousel-item {
+    flex: 0 0 auto;
+    width: 300px;
     background-color: var(--light);
     border-radius: 8px;
     overflow: hidden;
@@ -52,7 +104,7 @@
     transition: var(--transition);
   }
   
-  .vizag-card:hover {
+  .carousel-item:hover {
     transform: translateY(-5px);
   }
   
@@ -68,7 +120,7 @@
     transition: var(--transition);
   }
   
-  .vizag-card:hover .vizag-image img {
+  .carousel-item:hover .vizag-image img {
     transform: scale(1.05);
   }
   
@@ -85,9 +137,8 @@
   
   .vizag-btn {
     display: inline-block;
-    background-color: var(--primary);
-    color: white;
-    padding: 10px 20px;
+    color: var(--primary);
+    padding: 5px;
     border-radius: 4px;
     text-decoration: none;
     transition: var(--transition);
@@ -97,14 +148,67 @@
   
   .vizag-btn:hover,
   .vizag-btn:focus {
+    background: var(--primary);
+    color: #fff;
+    border-color: #fff;
+  }
+  
+  .carousel-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  .carousel-btn {
+    background: var(--primary);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    pointer-events: auto;
+    transition: var(--transition);
+    opacity: 0.8;
+  }
+  
+  .carousel-btn:hover,
+  .carousel-btn:focus {
+    opacity: 1;
     background-color: var(--accent);
-    border-color: var(--accent);
   }
   
   @media (max-width: 768px) {
-    .vizag-grid {
-      grid-template-columns: 1fr;
-      gap: 20px;
+    .carousel-btn {
+      display: none;
+    }
+    
+    .carousel {
+      padding: 10px;
+    }
+    
+    .carousel-item {
+      width: 280px;
     }
   }
+
+  @media (max-width: 480px) {
+    .carousel-item {
+        width: 200px;
+    }
+    .vizag-content h3{
+      font-size:1rem;
+    }
+
+    .vizag-image{
+      height: 150px;
+    }
+}
 </style>

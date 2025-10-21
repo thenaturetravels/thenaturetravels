@@ -1,5 +1,6 @@
 :root {
-  --primary: #2A9D8F;
+  /* --primary: #2A9D8F; */
+ --primary: linear-gradient(135deg, #FF6B00, #FFD700, #00BFFF, #0074D9);
   --secondary: #E9C46A;
   --accent: #E76F51;
   --light: #F8F9FA;
@@ -10,7 +11,8 @@
 }
 
 [data-theme="dark"] {
-  --primary: #2A9D8F;
+  /* --primary: #2A9D8F; */
+  --primary: linear-gradient(135deg, #FF6B00, #FFD700, #00BFFF, #0074D9);
   --secondary: #E9C46A;
   --accent: #E76F51;
   --light: #1A1F2C;

@@ -1,5 +1,22 @@
 <script>
+  import { onMount } from 'svelte';
   import siteData from '$lib/data/siteData.json';
+  
+  let carouselRef;
+  
+  onMount(() => {
+    // Initialize carousel functionality
+  });
+  
+  function scrollCarousel(direction) {
+    if (carouselRef) {
+      const scrollAmount = 300;
+      carouselRef.scrollBy({
+        left: direction * scrollAmount,
+        behavior: 'smooth'
+      });
+    }
+  }
 </script>
 
 <section id="services" class="services-section" aria-labelledby="services-title">
@@ -9,27 +26,46 @@
       <p>{siteData.services.subtitle}</p>
     </div>
     
-    <div class="services-grid">
-      {#each siteData.services.items as service}
-        <article class="service-card animate" aria-label={service.name}>
-          <div class="service-image">
-            <img 
-              src={service.image} 
-              alt={service.alt}
-              width="350"
-              height="200"
-              loading="lazy"
-            />
-          </div>
-          <div class="service-content">
-            <h3>{service.name}</h3>
-            <p>{service.description}</p>
-            <a href={service.link} class="service-link" aria-label={`Learn more about ${service.name}`}>
-              Learn More
-            </a>
-          </div>
-        </article>
-      {/each}
+    <div class="carousel-container">
+      <div class="carousel" bind:this={carouselRef} aria-label="Services carousel">
+        {#each siteData.services.items as service}
+          <article class="carousel-item animate" aria-label={service.name}>
+            <div class="service-image">
+              <img 
+                src={service.image} 
+                alt={service.alt}
+                width="350"
+                height="200"
+                loading="lazy"
+              />
+            </div>
+            <div class="service-content">
+              <h3>{service.name}</h3>
+              <p>{service.description}</p>
+              <a href={service.link} class="service-link" aria-label={`Learn more about ${service.name}`}>
+                Learn More
+              </a>
+            </div>
+          </article>
+        {/each}
+      </div>
+      
+      <div class="carousel-nav" aria-label="Carousel navigation">
+        <button 
+          class="carousel-btn prev" 
+          on:click={() => scrollCarousel(-1)}
+          aria-label="Previous services"
+        >
+          <i class="fas fa-chevron-left" aria-hidden="true"></i>
+        </button>
+        <button 
+          class="carousel-btn next" 
+          on:click={() => scrollCarousel(1)}
+          aria-label="Next services"
+        >
+          <i class="fas fa-chevron-right" aria-hidden="true"></i>
+        </button>
+      </div>
     </div>
   </div>
 </section>
@@ -39,13 +75,29 @@
     padding: 80px 0;
   }
   
-  .services-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 30px;
+  .carousel-container {
+    position: relative;
+    overflow: hidden;
+    margin: 0 -15px;
   }
   
-  .service-card {
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding: 20px 0;
+    gap: 15px;
+  }
+  
+  .carousel::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .carousel-item {
+    flex: 0 0 auto;
+    width: 300px;
     background-color: var(--light);
     border-radius: 8px;
     overflow: hidden;
@@ -53,7 +105,7 @@
     transition: var(--transition);
   }
   
-  .service-card:hover {
+  .carousel-item:hover {
     transform: translateY(-5px);
   }
   
@@ -69,7 +121,7 @@
     transition: var(--transition);
   }
   
-  .service-card:hover .service-image img {
+  .carousel-item:hover .service-image img {
     transform: scale(1.05);
   }
   
@@ -104,10 +156,49 @@
     border-bottom-color: var(--accent);
   }
   
+  .carousel-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  .carousel-btn {
+    background: var(--primary);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    pointer-events: auto;
+    transition: var(--transition);
+    opacity: 0.8;
+  }
+  
+  .carousel-btn:hover,
+  .carousel-btn:focus {
+    opacity: 1;
+    background-color: var(--accent);
+  }
+  
   @media (max-width: 768px) {
-    .services-grid {
-      grid-template-columns: 1fr;
-      gap: 20px;
+    .carousel-btn {
+      display: none;
+    }
+    
+    .carousel {
+      padding: 10px;
+    }
+    
+    .carousel-item {
+      width: 280px;
     }
   }
 </style>

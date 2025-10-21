@@ -60,7 +60,7 @@
   }
   
   .faq-question {
-    background-color: var(--primary);
+    background: var(--primary);
     color: white;
     padding: 15px 20px;
     cursor: pointer;

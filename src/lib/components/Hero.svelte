@@ -266,17 +266,28 @@
   .search-bar input {
     flex: 1;
     padding: 15px;
-    border: none;
+     border: 1px solid #ccc;
     border-radius: 4px 0 0 4px;
     font-size: 1rem;
     min-width: 0;
-    background: rgba(255, 255, 255, 0.95);
-  }
-  
+     background: linear-gradient(135deg, #FF6B00, #FFD700, #00BFFF, #0074D9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Optional focus/hover effects */
+.search-bar input:focus {
+  border-color: #00BFFF;
+  box-shadow: 0 0 6px rgba(0, 191, 255, 0.4);
+}
   .search-bar button {
     padding: 15px 25px;
-    background-color: var(--primary);
-    color: white;
+    background: var(--primary);
+    color: #FFFFFF;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
     border: none;
     border-radius: 0 4px 4px 0;
     cursor: pointer;
@@ -337,7 +348,7 @@
   
   @media (max-width: 576px) {
     .hero {
-      height: 100vh;
+      height: 60vh;
     }
     
     .hero-title {
@@ -390,5 +401,4 @@
     white-space: nowrap;
     border: 0;
   }
-
 </style>

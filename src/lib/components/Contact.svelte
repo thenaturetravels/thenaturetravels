@@ -203,7 +203,7 @@
   }
   
   .submit-btn {
-    background-color: var(--primary);
+    background: var(--primary);
     color: white;
     border: none;
     padding: 12px 25px;
