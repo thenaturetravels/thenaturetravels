@@ -122,6 +122,11 @@
   .season-btn.active {
     background: var(--primary);
     color: white;
+    border-radius: 30px;
+  }
+
+   .season-btn:focus {
+    border-radius: 30px;
   }
   
   .season-btn:hover:not(.active) {

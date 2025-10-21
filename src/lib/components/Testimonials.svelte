@@ -12,8 +12,11 @@
   
   function updateCarousel() {
     if (carouselTrack) {
-      const slideWidth = carouselTrack.offsetWidth;
-      carouselTrack.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+      const slides = carouselTrack.querySelectorAll('.carousel-slide-test');
+      if (slides.length > 0) {
+        const slideWidth = slides[0].offsetWidth;
+        carouselTrack.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+      }
     }
   }
   
@@ -125,16 +128,15 @@
   .testimonials-section {
     padding: 80px 0;
   }
-  
-  /* Desktop Testimonials Styles */
+
+  /* Desktop Testimonials */
   .desktop-testimonials {
     display: block;
   }
-  
   .mobile-testimonials {
     display: none;
   }
-  
+
   .outerdiv-test {
     width: 100%;
     background: var(--light);
@@ -143,7 +145,7 @@
     justify-content: center;
     padding: 1rem 0;
   }
-  
+
   .innerdiv-test {
     margin: 1rem;
     display: grid;
@@ -151,7 +153,7 @@
     grid-template-rows: repeat(2, 22rem);
     grid-template-columns: repeat(4, 17rem);
   }
-  
+
   .eachdiv-test {
     padding: 1.5rem 2rem;
     border-radius: 0.8rem;
@@ -159,11 +161,10 @@
     color: white;
     transition: var(--transition);
   }
-  
   .eachdiv-test:hover {
     transform: translateY(-5px);
   }
-  
+
   .div1-test {
     background: #733FC8;
     grid-column: 1/3;
@@ -171,196 +172,104 @@
     background-image: url(https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     background-position-x: 80%;
+  }
+  .div2-test { background: #49556B; grid-column: 3/4; grid-row: 1/2; }
+  .div3-test { background: white; grid-column: 4/5; grid-row: 1/3; color: #000;  }
+  .div4-test { background: white; grid-column: 1/2; grid-row: 2/3; color: #000; }
+  .div5-test { background: #18202D; grid-column: 2/4; grid-row: 2/3; color:#fff;}
 
-  }
-  
-  .div2-test {
-    background: #49556B;
-    grid-column: 3/4;
-    grid-row: 1/2;
-
-  }
-  
-  .div3-test {
-    background: white;
-    grid-column: 4/5;
-    grid-row: 1/3;
-    color:#000;
-  }
-  
-  .div4-test {
-    background: white;
-    grid-column: 1/2;
-    grid-row: 2/3;
-      color:#000;
-  }
-  
-  .div5-test {
-    background: #18202D;
-    grid-column: 2/4;
-    grid-row: 2/3;
-  }
-  
   .userdetails-test {
     display: flex;
     margin-bottom: 1rem;
   }
-  
-  .imgbox-test {
-    margin-right: 1rem;
-  }
-  
   .imgbox-test img {
     border-radius: 50%;
     width: 2.5rem;
     border: 2px solid #cec5c5;
   }
-  
+
   .detbox-test {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 1rem;
   }
-  
-  .detbox-test p {
-    margin: 0;
-  }
-  
   .detbox-test .name-test {
-    color: hsl(0, 0%, 81%);
     font-size: 0.9rem;
     margin-bottom: 0.1rem;
     font-weight: 600;
+    /* color: hsl(0, 0%, 81%); */
   }
-  
-  .detbox-test .name-test.dark-test {
-    color: #49505A;
-  }
-  
   .detbox-test .designation-test {
-    color: hsl(0, 0%, 81%);
-    opacity: 70%;
     font-size: 0.8rem;
+    opacity: 70%;
+    /* color: hsl(0, 0%, 81%); */
   }
-  
-  .detbox-test .designation-test.dark-test {
-    color: #49505A;
-  }
-  
+
   .review-test h4 {
     font-size: 1.3rem;
     font-weight: 600;
     line-height: 1.4;
     margin-bottom: 1rem;
   }
-  
-  .review-test.dark-test h4 {
-    color: #4B5258;
-  }
-  
   .review-test p {
     font-size: 0.9rem;
-    font-weight: 500;
-    opacity: 70%;
+    opacity: 80%;
     line-height: 1.5;
+
   }
-  
-  .review-test.dark-test p {
-    opacity: 0.8;
-  }
-  
+
   /* Mobile Testimonials Carousel */
   .testimonials-carousel-test {
     position: relative;
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 100%;
     overflow: hidden;
   }
-  
   .carousel-container-test {
     overflow: hidden;
-    border-radius: 10px;
     width: 100%;
   }
-  
   .carousel-track-test {
     display: flex;
     transition: transform 0.5s ease;
     width: 100%;
   }
-  
   .carousel-slide-test {
     min-width: 100%;
     flex-shrink: 0;
     box-sizing: border-box;
-    margin: 0;
     padding: 0 10px;
   }
-  
+
   .testimonial-card-test {
     background: white;
     border-radius: 10px;
     padding: 25px;
     box-shadow: var(--shadow);
-    height: 100%;
-    width: 100%;
+    color: var(--text);
     box-sizing: border-box;
   }
-  
+
   .carousel-indicators-test {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     gap: 10px;
   }
-  
   .indicator-test {
     width: 10px;
     height: 10px;
     border-radius: 50%;
     background-color: #ddd;
     cursor: pointer;
-    transition: var(--transition);
     border: none;
+    transition: 0.3s ease;
   }
-  
   .indicator-test.active-test {
     background: var(--primary);
   }
-  
-  /* Responsive */
-  @media only screen and (max-width: 1200px) {
-    .innerdiv-test {
-      grid-template-rows: repeat(2, 20rem);
-      grid-template-columns: repeat(4, 15rem);
-    }
-  }
-  
-  @media only screen and (max-width: 992px) {
-    .innerdiv-test {
-      grid-template-rows: repeat(2, 18rem);
-      grid-template-columns: repeat(4, 14rem);
-    }
-    
-    .eachdiv-test {
-      padding: 1.2rem 1.5rem;
-    }
-    
-    .review-test h4 {
-      font-size: 1.1rem;
-    }
-    
-    .review-test p {
-      font-size: 0.85rem;
-      
-    }
-  }
 
-       /* .review-test h4, .review-test p {
-      color:var(--light);
-      
-    } */
-  
   /* Responsive Fixes */
   @media only screen and (max-width: 768px) {
     .desktop-testimonials { display: none; }
@@ -369,24 +278,17 @@
     .testimonial-card-test {
       max-width: 90vw;
       margin: 0 auto;
-      /* color:#000; */
     }
     .review-test h4 {
       max-width: 400px;
-      color: #333;
+      color:#000;
     }
     .review-test p {
       max-width: 400px;
-      color: #555;
+      color: #000;
     }
-
-      .detbox-test .designation-test.dark-test {
-    color: #000;
-  }
-   .detbox-test .name-test,.detbox-test .designation-test {
-    color:#000;
-
-  }
-
+    .detbox-test{
+      color:#000;
+    }
   }
 </style>
