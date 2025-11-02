@@ -11,7 +11,7 @@
     "email": "info@naturetravels.com",
     "address": "Vizag, Visakhapatnam, Andhra Pradesh",
     "hours": "Mon - Sun: 8:00 AM - 8:00 PM",
-    "whatsapp": "https://wa.me/917702991358"
+    "whatsapp": "917702991358"
   },
   "navigation": [
     { "name": "Home", "href": "#home" },
@@ -34,7 +34,7 @@
     ],
     "carouselInterval": 5000
   },
-  "destinations": {
+  "destinationss": {
     "title": "Best Travel Destinations",
     "subtitle": "These popular destinations have a lot to offer for every traveler",
     "items": [
@@ -219,7 +219,7 @@
         "name": "Araku Valley",
         "image": "araku2.jpg",
         "alt": "Araku Valley Vizag travel - Scenic hill station",
-        "link": "#"
+        "link": "destinations/araku"
       },
       {
         "name": "Borra Caves",
@@ -231,7 +231,7 @@
         "name": "RK Beach",
         "image": "rkbeach.jpg",
         "alt": "RK Beach Visakhapatnam - Popular beach destination",
-        "link": "#"
+        "link": "destinations/rk-beach"
       },
       {
         "name": "Kailasagiri",
@@ -357,6 +357,237 @@
     "title": "Contact Us - Plan Your Adventure",
     "subtitle": "Get in touch with us to plan your next adventure",
     "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15220.41432145695!2d78.48673436977538!3d17.504999999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99dac93e348d%3A0xc9039baf28225326!2sHitech%20City%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1690816787891!5m2!1sen!2sin"
+  },"destinations": {
+  "araku": {
+    "title": "Araku Valley",
+    "slug": "araku",
+    "description": "A breathtaking hill station in the Eastern Ghats known for its coffee plantations, waterfalls, and tribal culture.",
+    "heroImage": "../araku.jpg",
+    "location": "Visakhapatnam District, Andhra Pradesh",
+    "bestTime": "September to March",
+    "duration": "2 Days",
+    "highlights": ["Coffee Plantations", "Waterfalls", "Tribal Museum", "Borra Caves", "Bamboo Chicken"],
+    "itinerary": [
+      {
+        "day": "DAY 1",
+        "title": "Vizag Sightseeing & Stay",
+        "description": "Araku Train - On Arrival, Pickup from Vizag Railway Station/Airport",
+        "timeline": [
+          {
+            "time": "Morning",
+            "title": "Arrival & Pickup",
+            "description": "Pickup from Vizag Railway Station/Airport and transfer to Hotel"
+          },
+          {
+            "time": "Morning",
+            "title": "Fresh Up & Breakfast",
+            "description": "Check into hotel and freshen up"
+          },
+          {
+            "time": "10:00 AM",
+            "title": "Bheemli Beach",
+            "description": "Visit the scenic Bheemli Beach"
+          },
+          {
+            "time": "11:30 AM",
+            "title": "Thotlakonda",
+            "description": "Explore Thotlakonda Buddhist complex"
+          },
+          {
+            "time": "1:00 PM",
+            "title": "Lunch Break",
+            "description": "Enjoy local cuisine"
+          },
+          {
+            "time": "2:30 PM",
+            "title": "Rushikonda Beach",
+            "description": "Visit Rushikonda Beach for water activities"
+          },
+          {
+            "time": "4:00 PM",
+            "title": "Kailashgiri",
+            "description": "Ropeway ride and panoramic views"
+          },
+          {
+            "time": "5:30 PM",
+            "title": "RK Beach & Museums",
+            "description": "Visit RK Beach, Aircraft Museum, Submarine Museum, Harrier Museum"
+          },
+          {
+            "time": "7:30 PM",
+            "title": "Evening Return",
+            "description": "Return back to hotel/resort"
+          },
+          {
+            "time": "Night",
+            "title": "Overnight Stay",
+            "description": "Overnight stay at the hotel/resort in Vizag"
+          }
+        ],
+        "image": "../araku2.jpg"
+      },
+      {
+        "day": "DAY 2",
+        "title": "Araku Sightseeing and Drop",
+        "description": "Full day exploration of Araku Valley",
+        "timeline": [
+          {
+            "time": "7:00 AM",
+            "title": "Morning Fresh Up",
+            "description": "Checkout the hotel and proceed to Araku"
+          },
+          {
+            "time": "9:00 AM",
+            "title": "Borra Caves",
+            "description": "Explore the magnificent Borra Caves"
+          },
+          {
+            "time": "11:00 AM",
+            "title": "Katiki Waterfalls",
+            "description": "Visit Katiki waterfalls (own vehicle required)"
+          },
+          {
+            "time": "1:00 PM",
+            "title": "Lunch with Bamboo Chicken",
+            "description": "Enjoy special Bamboo Chicken and Bamboo Chicken Biryani"
+          },
+          {
+            "time": "2:30 PM",
+            "title": "Coffee Plantation",
+            "description": "Tour through coffee plantations"
+          },
+          {
+            "time": "4:00 PM",
+            "title": "Gaalikonda View Point",
+            "description": "Spectacular views from Gaalikonda"
+          },
+          {
+            "time": "5:00 PM",
+            "title": "Museums Visit",
+            "description": "Visit Tribal Museum and Coffee Museum"
+          },
+          {
+            "time": "6:00 PM",
+            "title": "Padmapuram Gardens",
+            "description": "Explore beautiful Padmapuram Gardens"
+          },
+          {
+            "time": "7:30 PM",
+            "title": "Return to Vizag",
+            "description": "Evening return back to Vizag"
+          },
+          {
+            "time": "9:00 PM",
+            "title": "Drop at Station/Airport",
+            "description": "Drop at Railway Station/Airport"
+          }
+        ],
+        "image": "https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg"
+      }
+    ],
+    "inclusions": [
+      "All sightseeing in private car for families and luxury coach for groups on itinerary basis",
+      "Borra caves entry tickets except camera tickets",
+      "1 Water bottle per person",
+      "Hotel accommodation for 1 night",
+      "Transportation throughout the tour"
+    ],
+    "exclusions": [
+      "All personal expenses, optional tours and meals",
+      "Camera tickets at Borra Caves",
+      "Anything not mentioned in Inclusions",
+      "Travel insurance"
+    ],
+    "activities": [
+      "Hot Air Balloon Ride",
+      "Zip Line Adventure",
+      "Dhimsa Dance Performance",
+      "Tribal Village Visit",
+      "Campfire Experience",
+      "Trekking through plantations",
+      "Camping in Tents"
+    ],
+    "mustSeePlaces": [
+      "Borracaves - Ancient limestone caves",
+      "Galikonda View Point - Panoramic valley views",
+      "Coffee Plantation - Guided plantation tour",
+      "Tribal Museum - Cultural heritage",
+      "Madagada View Point - Best in winter season",
+      "Katiki Waterfalls - Natural waterfall"
+    ],
+    "specialFood": [
+      "Bamboo Chicken - Traditional tribal preparation",
+      "Bamboo Chicken Biryani - Unique flavor",
+      "Araku Coffee - Fresh plantation coffee",
+      "Tribal Cuisine - Authentic local dishes"
+    ],
+    "howToReach": [
+      "Visakhapatnam(Vizag) is the nearest city, 100km from Araku",
+      "Vizag well connected to Hyderabad, Delhi, Chennai, Bangalore",
+      "Reach Vizag by Air, Road or Train",
+      "From Vizag to Araku by Train (scenic journey through tunnels) or Road (winding ghat roads)"
+    ],
+    "gallery": [
+      "https://images.pexels.com/photos/3225529/pexels-photo-3225529.jpeg",
+      "https://images.pexels.com/photos/1450082/pexels-photo-1450082.jpeg",
+      "https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg",
+      "https://images.pexels.com/photos/3581366/pexels-photo-3581366.jpeg",
+      "https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg"
+    ],
+    "tips": [
+      "Carry warm clothes as temperatures can drop significantly",
+      "Book accommodations in advance during peak season",
+      "Try local tribal cuisine and Araku coffee",
+      "Hire a local guide for better cultural experience",
+      "Wear comfortable shoes for walking and trekking",
+      "Carry cash as ATMs might be limited in remote areas"
+    ]
+  },
+    "rk-beach": {
+      "title": "RK Beach",
+      "slug": "rk-beach",
+      "description": "One of the most popular beaches in Visakhapatnam, known for its golden sands, sunrise views, and recreational activities.",
+      "heroImage": "../rkbeach2.jpg",
+      "location": "Visakhapatnam, Andhra Pradesh",
+      "bestTime": "October to March",
+      "duration": "1 Day",
+      "highlights": ["Sunrise Views", "Beach Activities", "Local Food Stalls", "Evening Walks"],
+      "itinerary": [
+        {
+          "day": "Morning",
+          "title": "Sunrise & Breakfast",
+          "description": "Watch the beautiful sunrise at RK Beach and enjoy breakfast at local stalls.",
+          "image": "https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg",
+          "time": "6:00 AM - 9:00 AM"
+        },
+        {
+          "day": "Afternoon",
+          "title": "Beach Activities & Lunch",
+          "description": "Enjoy beach activities and have lunch at nearby restaurants with sea view.",
+          "image": "https://images.pexels.com/photos/248547/pexels-photo-248547.jpeg",
+          "time": "11:00 AM - 3:00 PM"
+        },
+        {
+          "day": "Evening",
+          "title": "Sunset & Local Market",
+          "description": "Experience the beautiful sunset and explore local markets near the beach.",
+          "image": "https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg",
+          "time": "5:00 PM - 8:00 PM"
+        }
+      ],
+      "gallery": [
+        "https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg",
+        "https://images.pexels.com/photos/248547/pexels-photo-248547.jpeg",
+        "https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg",
+        "https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg"
+      ],
+      "tips": [
+        "Visit during sunrise or sunset for best experience",
+        "Carry sunscreen and water",
+        "Try local street food but ensure hygiene",
+        "Be cautious while swimming in the sea"
+      ]
+    }
   },
   "footer": {
     "description": "Your trusted partner for unforgettable travel experiences in Southern India and beyond.",

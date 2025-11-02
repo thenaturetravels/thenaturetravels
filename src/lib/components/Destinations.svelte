@@ -22,13 +22,13 @@
 <section id="destinations" class="destinations-section" aria-labelledby="destinations-title">
   <div class="container">
     <div class="section-title">
-      <h2 id="destinations-title">{siteData.destinations.title}</h2>
-      <p>{siteData.destinations.subtitle}</p>
+      <h2 id="destinations-title">{siteData.destinationss.title}</h2>
+      <p>{siteData.destinationss.subtitle}</p>
     </div>
     
     <div class="carousel-container">
       <div class="carousel" bind:this={carouselRef} aria-label="Travel destinations carousel">
-        {#each siteData.destinations.items as destination}
+        {#each siteData.destinationss.items as destination}
           <article class="carousel-item animate" aria-label={destination.name}>
             <img 
               src={destination.image} 

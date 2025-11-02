@@ -2,10 +2,18 @@
   import { onMount } from 'svelte';
   import { theme } from '$lib/stores/theme';
   import '../app.css';
+    import Footer from '$lib/components/Footer.svelte';
+    import Header from '$lib/components/Header.svelte';
+  import FloatingContact from '$lib/components/FloatingContact.svelte';
 
   onMount(() => {
     theme.init();
   });
+    let currentTheme = 'light';
+  
+  function toggleTheme() {
+    currentTheme = currentTheme === 'light' ? 'dark' : 'light';
+  }
 </script>
 
 <svelte:head>
@@ -20,8 +28,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
 </svelte:head>
 
 <div class="app">
+  <Header {currentTheme} {toggleTheme} />
   <slot />
+  <FloatingContact/>
+  <Footer />
 </div>

@@ -1,6 +1,6 @@
 <script>
   import { onMount } from 'svelte';
-  import Header from '$lib/components/Header.svelte';
+
   import Hero from '$lib/components/Hero.svelte';
   import Destinations from '$lib/components/Destinations.svelte';
   import AnimationSection from '$lib/components/AnimationSection.svelte';
@@ -12,7 +12,6 @@
   import FAQ from '$lib/components/FAQ.svelte';
   import Newsletter from '$lib/components/Newsletter.svelte';
   import Contact from '$lib/components/Contact.svelte';
-  import Footer from '$lib/components/Footer.svelte';
   import Partners from '$lib/components/Partners.svelte';
   import DoubleScrolling from '$lib/components/DoubleScrolling.svelte';
   
@@ -45,7 +44,6 @@
   <link rel="canonical" href="https://naturetravels.com" />
 </svelte:head>
 
-<Header {currentTheme} {toggleTheme} />
 <Hero />
 <Destinations />
 <AnimationSection />
@@ -61,7 +59,7 @@
 <Newsletter />
 <Contact />
 <FAQ />
-<Footer />
+
 
 <style>
   *{
