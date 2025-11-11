@@ -588,7 +588,269 @@
         "Be cautious while swimming in the sea"
       ]
     }
-  },
+  }, "tourPackages": {
+    "vizag": {
+      "title": "Vizag Tour Packages",
+      "slug": "vizag",
+      "description": "Explore the beautiful city of Visakhapatnam with our curated tour packages",
+      "heroImage": "https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg",
+      "packages": [
+        {
+          "id": "vizag-1d",
+          "title": "Vizag Local Sightseeing",
+          "duration": "1 Day",
+          "nights": "0 Nights",
+          "price": "₹1,499",
+          "originalPrice": "₹1,999",
+          "discount": "25% OFF",
+          "highlights": ["RK Beach", "Kailashgiri", "Submarine Museum", "Aircraft Museum"],
+          "itinerary": [
+            {
+              "time": "9:00 AM",
+              "activity": "Pickup from Hotel/Railway Station"
+            },
+            {
+              "time": "10:00 AM",
+              "activity": "Visit Kailashgiri (Ropeway Ride)"
+            },
+            {
+              "time": "12:00 PM",
+              "activity": "Submarine Museum Tour"
+            },
+            {
+              "time": "1:30 PM",
+              "activity": "Lunch Break"
+            },
+            {
+              "time": "3:00 PM",
+              "activity": "Aircraft Museum & Harrier Museum"
+            },
+            {
+              "time": "5:00 PM",
+              "activity": "RK Beach & Sunset View"
+            },
+            {
+              "time": "7:00 PM",
+              "activity": "Drop at Hotel/Station"
+            }
+          ],
+          "inclusions": [
+            "AC Vehicle for sightseeing",
+            "Driver charges & fuel",
+            "Parking charges",
+            "All toll taxes"
+          ],
+          "exclusions": [
+            "Lunch & other meals",
+            "Entry tickets to museums",
+            "Personal expenses",
+            "Anything not mentioned"
+          ],
+          "image": "https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg"
+        },
+        {
+          "id": "vizag-1n",
+          "title": "Vizag 1 Night / 2 Days",
+          "duration": "2 Days",
+          "nights": "1 Night",
+          "price": "₹3,999",
+          "originalPrice": "₹4,999",
+          "discount": "20% OFF",
+          "highlights": ["RK Beach", "Bheemli Beach", "Rushikonda", "Kailashgiri", "Museums"],
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "activities": [
+                "Arrival & Hotel Check-in",
+                "Kailashgiri Ropeway",
+                "Submarine Museum",
+                "RK Beach Sunset",
+                "Overnight stay"
+              ]
+            },
+            {
+              "day": "Day 2",
+              "activities": [
+                "Bheemli Beach Visit",
+                "Rushikonda Beach",
+                "Aircraft Museum",
+                "Local Shopping",
+                "Departure"
+              ]
+            }
+          ],
+          "inclusions": [
+            "1 Night Hotel Accommodation",
+            "AC Vehicle for sightseeing",
+            "Breakfast",
+            "All taxes included"
+          ],
+          "exclusions": [
+            "Lunch & Dinner",
+            "Entry tickets",
+            "Personal expenses"
+          ],
+          "image": "https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg"
+        },
+        {
+          "id": "vizag-2n",
+          "title": "Vizag 2 Nights / 3 Days",
+          "duration": "3 Days",
+          "nights": "2 Nights",
+          "price": "₹6,499",
+          "originalPrice": "₹7,999",
+          "discount": "19% OFF",
+          "highlights": ["All Vizag Attractions", "Araku Valley", "Borra Caves", "Beaches", "Museums"],
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "activities": [
+                "Arrival & Check-in",
+                "Kailashgiri",
+                "Submarine Museum",
+                "RK Beach",
+                "Overnight stay"
+              ]
+            },
+            {
+              "day": "Day 2",
+              "activities": [
+                "Full Day Araku Valley",
+                "Borra Caves",
+                "Coffee Plantations",
+                "Tribal Museum",
+                "Overnight stay"
+              ]
+            },
+            {
+              "day": "Day 3",
+              "activities": [
+                "Bheemli Beach",
+                "Rushikonda",
+                "Local Shopping",
+                "Departure"
+              ]
+            }
+          ],
+          "inclusions": [
+            "2 Nights Hotel Accommodation",
+            "AC Vehicle for all days",
+            "Breakfast & Dinner",
+            "Araku Valley trip included"
+          ],
+          "exclusions": [
+            "Lunch",
+            "Entry tickets",
+            "Personal expenses"
+          ],
+          "image": "https://images.pexels.com/photos/3225529/pexels-photo-3225529.jpeg"
+        }
+      ]
+    },
+    "araku": {
+      "title": "Araku Valley Tour Packages",
+      "slug": "araku",
+      "description": "Experience the beauty of Araku Valley with our specially crafted packages",
+      "heroImage": "https://images.pexels.com/photos/3225529/pexels-photo-3225529.jpeg",
+      "packages": [
+        {
+          "id": "araku-1d",
+          "title": "Araku Valley Day Trip",
+          "duration": "1 Day",
+          "nights": "0 Nights",
+          "price": "₹2,499",
+          "originalPrice": "₹2,999",
+          "discount": "17% OFF",
+          "highlights": ["Borra Caves", "Coffee Plantations", "Tribal Museum", "Waterfalls"],
+          "itinerary": [
+            {
+              "time": "6:00 AM",
+              "activity": "Pickup from Vizag"
+            },
+            {
+              "time": "9:00 AM",
+              "activity": "Borra Caves Exploration"
+            },
+            {
+              "time": "11:00 AM",
+              "activity": "Coffee Plantation Tour"
+            },
+            {
+              "time": "1:00 PM",
+              "activity": "Lunch with Bamboo Chicken"
+            },
+            {
+              "time": "2:30 PM",
+              "activity": "Tribal Museum Visit"
+            },
+            {
+              "time": "4:00 PM",
+              "activity": "Katiki Waterfalls"
+            },
+            {
+              "time": "6:00 PM",
+              "activity": "Return to Vizag"
+            }
+          ],
+          "inclusions": [
+            "AC Vehicle for round trip",
+            "Driver charges",
+            "Fuel & parking",
+            "All taxes"
+          ],
+          "exclusions": [
+            "Lunch & meals",
+            "Entry tickets",
+            "Personal expenses"
+          ],
+          "image": "https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg"
+        },
+        {
+          "id": "araku-1n",
+          "title": "Araku Valley 1 Night Package",
+          "duration": "2 Days",
+          "nights": "1 Night",
+          "price": "₹4,999",
+          "originalPrice": "₹5,999",
+          "discount": "17% OFF",
+          "highlights": ["Borra Caves", "Coffee Plantations", "Waterfalls", "Tribal Culture", "Campfire"],
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "activities": [
+                "Travel to Araku Valley",
+                "Borra Caves Visit",
+                "Coffee Plantation Tour",
+                "Tribal Museum",
+                "Campfire & Overnight"
+              ]
+            },
+            {
+              "day": "Day 2",
+              "activities": [
+                "Katiki Waterfalls",
+                "Padmapuram Gardens",
+                "Local Sightseeing",
+                "Return to Vizag"
+              ]
+            }
+          ],
+          "inclusions": [
+            "1 Night Hotel in Araku",
+            "All meals included",
+            "AC Vehicle",
+            "Campfire arrangement"
+          ],
+          "exclusions": [
+            "Entry tickets",
+            "Personal expenses"
+          ],
+          "image": "https://images.pexels.com/photos/1450082/pexels-photo-1450082.jpeg"
+        }
+      ]
+    }
+
+},
   "footer": {
     "description": "Your trusted partner for unforgettable travel experiences in Southern India and beyond.",
     "quickLinks": [
