@@ -587,6 +587,10 @@
         font-size: 1.1rem;
     }
 
+    .highlight-item span{
+        color:#333;
+    }
+
     /* Timeline for Modal */
     .timeline-modal {
         position: relative;
@@ -695,6 +699,7 @@
         display: flex;
         align-items: flex-start;
         gap: 0.8rem;
+        color:#333;
     }
 
     .inclusions-list li:last-child, .exclusions-list li:last-child {
