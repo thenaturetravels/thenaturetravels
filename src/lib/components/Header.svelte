@@ -159,8 +159,8 @@
   }
   
   .logo img {
-    height: 60px;
-    width:60px;
+    height: 80px;
+    width: 100px;
     margin-right: 10px;
   }
   
@@ -326,4 +326,5 @@
       font-size: 1.5rem;
     }
   }
+
 </style>
