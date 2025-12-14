@@ -325,6 +325,12 @@
     .logo h1 {
       font-size: 1.5rem;
     }
+
+.logo p{
+font-size:10px;
+
+}
   }
 
 </style>
+
