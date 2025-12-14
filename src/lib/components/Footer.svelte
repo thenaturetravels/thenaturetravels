@@ -35,7 +35,7 @@
       <div class="footer-section">
         <h4>Contact Info</h4>
         <ul role="list">
-<li role="listitem">M Dileep Kumar</li>
+<li role="listitem"><i class="fas fa-user" aria-hidden="true"></i>M Dileep Kumar</li>
           <li role="listitem">
             <i class="fas fa-phone" aria-hidden="true"></i>
             {siteData.company.phone}
@@ -147,3 +147,4 @@ color:var(--light);
   }
 
 </style>
+
